@@ -17,8 +17,17 @@
     "mocha": "^3.4.2"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node app.js"
   },
   "author": "jackyb",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qweenwasabi/Some_project_app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qweenwasabi/Some_project_app/issues"
+  },
+  "homepage": "https://github.com/qweenwasabi/Some_project_app#readme"
 }
