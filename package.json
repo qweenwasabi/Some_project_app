@@ -1,31 +1,33 @@
 {
   "name": "spa",
   "version": "1.0.0",
-  "description": "spa site",
+  "description": "",
   "main": "app.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "express": "^4.15.3",
-    "nodemon": "^1.11.0",
-    "pg-promise": "^6.3.1"
-  },
-  "devDependencies": {
+    "body-parser": "^1.17.2",
     "chai": "^4.0.2",
     "chai-http": "^3.0.0",
+    "express": "^4.15.3",
+    "jade": "^1.11.0",
+    "nodemon": "^1.11.0",
+    "pg-promise": "^6.3.1",
+    
+  },
+  "devDependencies": {
     "mocha": "^3.4.2"
   },
   "scripts": {
-    "test": "mocha",
-    "start": "node app.js"
+    "test": "mocha"
   },
-  "author": "jackyb",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/qweenwasabi/Some_project_app.git"
   },
+  "author": "",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/qweenwasabi/Some_project_app/issues"
   },
